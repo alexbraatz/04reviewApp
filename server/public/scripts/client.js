@@ -27,7 +27,7 @@ function addItem(){
 
     }).catch( function ( err ){
         // catch all errosrs
-        alert( 'erro adding item' );
+        alert( 'error adding item' );
         console.log( err );
 
     })
@@ -60,7 +60,6 @@ function sellItem(){
     // create an object to send
     let objectToSend = {
         index: $( this ).data( 'index' )
-
     }
     // make our POST request to server with this object
     $.ajax({
