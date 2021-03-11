@@ -24,3 +24,9 @@ app.post( '/inventory', ( req, res )=>{
     inventory.push( req.body );
     res.sendStatus( 201 );
 })
+
+app.post( '/sell', ( req, res )=>{
+    console.log( 'in /sell POST', req.body );
+    inventory.splice( Number( req.body.index ), 1 );
+    res.sendStatus( 200 ); // generic "OK"
+})
