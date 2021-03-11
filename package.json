@@ -1,0 +1,16 @@
+{
+  "name": "04_reviewApp",
+  "version": "1.0.0",
+  "description": "Emirp AJAX Review App ===",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
